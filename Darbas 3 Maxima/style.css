@@ -1,0 +1,66 @@
+body {
+    background-color: rgb(211, 203, 203);
+}
+
+header {
+    text-align: center;
+    height: 220px;
+    width: 50%;
+    margin: 20px auto;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 5px 5px 8px rgba(0,0,0,0.2);
+}
+a {
+    text-decoration: none;
+    font-size: 20px;
+    margin-right: 40px;
+    color: black;
+}
+.apie_mus {
+    height: 50%;
+    margin: 20px auto;
+    width: 50%;
+    background-color: white;
+    text-align: center;
+    border-radius: 10px;
+}
+.tekstas_apie_mus{
+    text-align: justify;
+    margin-left: 20px auto;
+    width: 50% auto;
+    padding: 10px;
+    font-size: 15px;
+}
+h2 {
+    padding-top: 80px;
+    font-size: 25px;
+}
+h3 {
+    padding-top: 10px;
+    font-size: 15px;
+}
+.produktai {
+    height: 1200px;
+    margin: 20px auto;
+    width: 50%;
+    background-color: white;
+    text-align: center;
+    border-radius: 10px;
+}
+
+.kontaktai {
+    height: 650px;
+    width: 50%;
+    font-size: 20px;
+    margin: 20px auto;
+    background-color: white;
+    text-align: left;
+    border-radius: 10px;
+}
+.map {
+    text-align: center;
+}
+footer {
+    text-align: center;
+}
