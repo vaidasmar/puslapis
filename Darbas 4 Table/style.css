@@ -1,0 +1,100 @@
+table {
+    width: 50%;
+    border-collapse: collapse;
+}
+td, th {
+    border: 1px solid rgb(218, 23, 23) 
+}
+
+h1, h2 {
+    padding-left: 15%;
+}
+ul {
+    padding-left: 18%;
+}
+
+table {
+    margin-left: 15%;
+}
+
+tr {
+    height: 20px;
+}
+
+.go_up{
+    text-align: center;
+}
+
+header {
+    height: 251px;
+    background-color: black;
+    color: white;
+}
+header nav {
+    margin-left: 15%;
+    text-align: right;
+    max-width: 698px;
+    background-color: #d6b731;
+    padding: 12px;
+  }
+
+  header nav a {
+    margin-right: 20px;
+    color: white;
+    text-decoration: none;
+  }
+
+  header nav a:last-child {
+    margin-right: 0;
+  }
+
+.about_text {
+    text-align: justify;
+    max-width: 720px;
+    padding-left: 15%;
+    font-size: 12px;
+}
+
+.about_section {
+    height: 180px;
+    background-color: white;
+    color: black;
+    
+    }
+
+
+.contacts_section {
+    width: 90% auto;
+    height: 130px;
+    padding-left: 30%;
+    padding: 5px;
+    color: black;
+    font-weight: bold;
+}
+
+.text_center {
+    text-align: center;
+}
+.text_right {
+    text-align: right;
+}
+
+.table_section {
+    width: 90% auto;
+    height: 200px;
+    padding-left: 30%;
+    background-color: blue;
+    padding: 5px;
+    color: white;
+    font-weight: bold;
+    }
+
+footer {
+    width: 90% auto;
+    height: 30px;
+    text-align: center;
+    padding: 5px;
+    color: white;
+    background-color: yellow;
+    font-weight: bold;
+}
