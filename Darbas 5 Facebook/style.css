@@ -1,0 +1,148 @@
+header img {
+    padding: 5px;
+}
+header.login-header {
+    position:fixed;
+    top: 0;
+    height: 60px;
+    background-color: white;
+    width: 100%;
+    z-index: 99;
+}
+header form {
+    float: right;
+    margin: 10px;
+}
+
+input {
+    height: 30px;
+    border-radius: 7px;
+    border-color: black;
+    margin-left: 5px;
+}
+
+input:hover {
+    border-color: rgb(158, 125, 125);
+    border-style: double;
+}
+
+form button {
+    height: 35px;
+    border-radius: 7px;
+    padding: 0 15px;
+    background-color: blue;
+    color: white;
+    font-weight: bold;
+    border-color: blue;
+    margin: 0 5px 0 5px;
+
+}
+form button:hover{
+    background-color: rgb(48, 48, 129);
+    border-color: rgb(61, 61, 116);
+}
+
+header form a {
+    color: black;
+    text-decoration: none;
+    margin: 0 20px 0 20px;
+}
+
+header form a:hover {
+    color: black;
+    text-decoration: underline;
+}
+
+main {
+    margin-top: 60px;
+    height: 1000px;
+    background-color: rgb(207, 202, 190);
+}
+header.wall-header {
+    width: 100%;
+    text-align: center;
+    background: linear-gradient(180deg, rgb(59, 59, 131), white 44%);
+   }
+header img {
+    border-radius: 30px;
+}
+h2 {
+    color: rgb(79, 80, 77);
+}
+.container {
+    width: 800px;
+    margin: 0 auto;
+}
+.info-container {
+    text-align: left;
+    display: inline-block;
+}
+.info-container {
+    vertical-align: bottom;
+}
+
+.contact-info img {
+    top: -20px;
+    border-radius: 80px;
+    position: relative;
+    border-style: groove;
+}
+.contact-info button {
+    padding: 5px 40px;
+    margin-left: 30px;
+    margin-bottom: 22px;
+    vertical-align: bottom;
+}
+.btn {
+    background-color: blue;
+    color: white;
+    border-color: #1b74e4;
+    border-radius: 5px;
+}
+.btn:hover {
+    background-color: #0e60c4;
+    border-color: #0e60c4;
+}
+nav {
+    text-align: left;
+    height: 30px;
+}
+nav a {
+    text-decoration: none;
+}
+
+nav select {
+    border-style: none;
+    color: grey;
+    font-size: larger;
+    padding-left: 15px;
+    width: 80px;
+    appearance: unset;
+}
+.nav-text {
+    padding: 10px 15px;
+    color: gray;
+    font-size: large;
+}
+section article {
+    display: inline-block;
+    background-color: white;
+    border-radius: 10px;
+    vertical-align: top;
+    padding: 10px;
+    width: 350px;
+    margin: 10px;
+}
+
+article span {
+    color: #b3adad;
+}
+footer {
+    width: 90% auto;
+    height: 30px;
+    text-align: center;
+    padding: 5px;
+    color: rgb(3, 3, 3);
+    background-color: rgb(226, 226, 206);
+    font-weight: bold;
+}
