@@ -1,0 +1,58 @@
+.main_pirma_uzduotis {
+    background-color: grey;
+    height: 25vh;
+}
+.main_antra_uzduotis {
+    background-color: grey;
+    height: 50vh;
+}
+.main_trecia_uzduotis {
+    background-color: grey;
+    height: 80vh;
+}
+h1{
+    text-align: center;
+}
+h1::before,
+h1::after {
+  content: " xXx ";
+  color: red;
+}
+section {
+    margin: 20px auto;
+    width: 411px;
+    background-color: white;
+    border: 1px solid black;
+}
+div {
+    margin: 2px;
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    border: 1px solid black;
+}
+div:nth-child(even){
+    background-color: black;
+}
+ul li{
+    width: 50px;
+    height: 50px;
+    background-color: black;
+    display: inline-block;
+    border-radius: 20px;
+    margin: 30px;
+
+}
+ul li:nth-child(3n + 2)
+{
+    background-color: blue;
+}
+footer {
+    width: 100% auto;
+    height: 34px;
+    text-align: center;
+    padding: 5px;
+    color: rgb(3, 3, 3);
+    background-color: rgb(226, 226, 206);
+    font-weight: bold;
+}

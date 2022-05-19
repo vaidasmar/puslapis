@@ -1,0 +1,57 @@
+.input_main {
+    width: 300px;
+    margin: 20px auto;
+    border-radius: 20px;
+}
+form {
+    padding: 30px;
+    background-color: black;
+    border-radius: 20px;
+}
+label {
+    color: white;
+    display: block;
+}
+span {
+    color: white;
+}
+input:read-only {
+    background-color: grey;
+}
+input, textarea {
+    display: block;
+    margin-bottom: 10px;
+  }
+textarea:required, input:required {
+    border-left: 4px solid blue;
+  }
+label:nth-of-type(4) {
+    display: inline;
+  }
+input[type="number"] {
+    display: inline;
+    width: 50px;
+  }
+input[type="number"]:in-range {
+    background-color: greenyellow;
+  }
+
+input[type="number"]:out-of-range {
+    background-color: lightsalmon;
+  }
+button {
+    background-color: rgb(91, 114, 56);
+  }
+button:hover {
+    background-color: rgb(59, 81, 27);
+  }
+input[type="checkbox"]:checked + span {
+    color: rgb(111, 111, 216);
+  }
+textarea:valid, input:valid {
+    background-color: rgb(104, 75, 220);
+    border: 2px solid rgb(104, 75, 220);
+  }
+textarea:invalid, input:invalid {
+    border: 2px solid red;
+  }
