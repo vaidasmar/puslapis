@@ -1,0 +1,46 @@
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 100%;
+    height: 600px;
+    background-image: url(https://g1.dcdn.lt/images/pix/bananai-80678717.jpg);
+    background-repeat: no-repeat;
+}
+html, body {
+    width: 100%;
+    height: 90%;
+}
+body{
+    display: flex;
+    flex-direction: column;
+}
+header img{
+    height: 60px;
+}
+section img{
+    float: left;
+    width: 30%;
+}
+header{
+    padding: 10px;
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-end;
+}
+section{
+    width: 80%;
+    height: 90%;
+    padding: 20px;
+    background-color: white;
+}
+footer {
+    width: 100% auto;
+    height: 34px;
+    text-align: center;
+    padding: 5px;
+    color: rgb(3, 3, 3);
+    background-color: rgb(226, 226, 206);
+    font-weight: bold;
+}
