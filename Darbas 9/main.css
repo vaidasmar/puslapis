@@ -1,0 +1,20 @@
+main {
+    display: flex;
+    width: 500px;
+    height: 300px;
+    background-color: cornflowerblue;
+}
+div {
+    text-align: center;
+    font-size: xx-large;
+    width: 80px;
+    height: 80px;
+    background-color: blue;
+    border: 2px solid red;
+}
+div:nth-child(2){
+    align-self: flex-end;
+}
+div:nth-child(4){
+    align-self: center;
+}
