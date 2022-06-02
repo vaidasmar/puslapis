@@ -1,4 +1,0 @@
-viaens
-du
-trys
-keturi
