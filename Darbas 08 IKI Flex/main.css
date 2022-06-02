@@ -77,8 +77,9 @@ footer{
     text-align: center;
     font-size: larger;
 }
-span{
+table tr td:first-child{
     color: green;
+    font-weight: bold;
 }
 table{
     width: 100%;
