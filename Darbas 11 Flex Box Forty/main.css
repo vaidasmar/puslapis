@@ -1,0 +1,167 @@
+body{
+    width: 90%;
+    margin: 10px auto;
+    background-color: lightslategrey;
+}
+header{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 300px;
+    background-image: url(https://www.itlietuviai.it/wp-content/uploads/2021/04/saulelydis.jpg);
+    background-color: rgba(23, 3, 71, 0.8);
+    background-blend-mode: multiply;
+    color: white;
+    font-weight: bolder;
+    padding-left: 50px;
+    gap: 11px;
+}
+.header_top{
+    width: 95%;
+    border-bottom: 3px solid white;
+}
+header div{
+    display: flex;
+    align-items: center;           
+}
+.header_text{
+    width: 30%;
+}
+button{
+    border: 1px solid white;
+    background-color: transparent;
+    cursor: pointer;
+    color: white;
+    padding: 10px;
+    font-weight: bolder;
+    width: 150px;
+}
+.main_top{
+    display: flex;
+    height: 250px;    
+        
+}
+.main_top_left{
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    background-image: url(https://theplanetsworld.com/travel-tips1/our-most-beautiful-photos-2.jpg);
+    background-color: rgba(213, 250, 6, 0.8);
+    background-blend-mode: multiply;
+    padding-left: 50px;
+    color: white;
+    justify-content: center;
+    font-weight: bolder;
+    }
+.main_top_right{
+    display: flex;
+    flex-direction: column;
+    flex-grow: 2;
+    background-image: url(https://theplanetsworld.com/travel-tips1/our-most-beautiful-photos-3.jpg);
+    background-color: rgba(216, 13, 131, 0.8);
+    background-blend-mode: multiply;
+    padding-left: 50px;
+    color: white;
+    justify-content: center;
+    font-weight: bolder;
+}
+h2{
+    width: 200px;
+    border-bottom: 3px solid white;
+    align-items: center;
+    padding-bottom: 24px;
+}
+.main_middle{
+    display: flex;
+    height: 250px;    
+        
+}
+.main_middle_left{
+    display: flex;
+    flex-direction: column;
+    flex-grow: 2;
+    background-image: url(https://theplanetsworld.com/travel-tips1/our-most-beautiful-photos-2.jpg);
+    background-color: rgba(231, 19, 19, 0.8);
+    background-blend-mode: multiply;
+    padding-left: 50px;
+    color: white;
+    justify-content: center;
+    font-weight: bolder;
+    }
+.main_middle_right{
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    background-image: url(https://theplanetsworld.com/travel-tips1/our-most-beautiful-photos-3.jpg);
+    background-color: rgba(29, 233, 73, 0.8);
+    background-blend-mode: multiply;
+    padding-left: 50px;
+    color: white;
+    justify-content: center;
+    font-weight: bolder;
+}
+.main_buttom{
+    display: flex;
+    height: 250px;    
+        
+}
+.main_buttom_left{
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    background-image: url(https://theplanetsworld.com/travel-tips1/our-most-beautiful-photos-2.jpg);
+    background-color: rgba(43, 7, 247, 0.8);
+    background-blend-mode: saturation;
+    padding-left: 50px;
+    color: white;
+    justify-content: center;
+    font-weight: bolder;
+    }
+.main_buttom_right{
+    display: flex;
+    flex-direction: column;
+    flex-grow: 2;
+    background-image: url(https://theplanetsworld.com/travel-tips1/our-most-beautiful-photos-3.jpg);
+    background-color: rgba(170, 213, 219, 0.8);
+    background-blend-mode: color;
+    padding-left: 50px;
+    color: white;
+    justify-content: center;
+    font-weight: bolder;
+}
+.section_buttom{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 300px;
+    background-color: rgb(19, 19, 56);
+    color: white;
+    font-weight: bolder;
+    padding-left: 50px;
+    gap: 11px;
+}
+.section_text{
+    width: 100%;
+    font-size: larger;
+}
+footer{
+    background-color: rgb(24, 24, 58);
+    height: 100px;
+    padding: 10px;
+}
+a{
+    padding: 11px;
+    font-size: 30px;
+    width: 12px;
+    text-align: center;
+    text-decoration: none;
+    margin: 15px 11px;
+    background-color: white;
+    color: rgb(19, 19, 56);
+    border-radius: 50%;
+}
+footer p{
+    text-align: center;
+    font-size: larger;
+    color: white;
+}
